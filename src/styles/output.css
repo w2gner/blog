@@ -5,12 +5,12 @@ lottie-player {
 /* Default (light) mode */
 
 body {
-  background-color: white;
-  color: black;
+  background-color: #d8dee9;
+  color: #2e3440;
 }
 
 a {
-  color: rgb(202, 78, 29);
+  color: #336699;
   text-decoration: underline;
 }
 
@@ -18,7 +18,7 @@ a {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: black;
+    background-color: #2e3440;
     color: white;
   }
 
