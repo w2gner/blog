@@ -1,0 +1,29 @@
+lottie-player {
+  margin: 0 auto;
+}
+
+/* Default (light) mode */
+
+body {
+  background-color: #d8dee9;
+  color: #2e3440;
+}
+
+a {
+  color: #336699;
+  text-decoration: underline;
+}
+
+/* Dark mode */
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #2e3440;
+    color: white;
+  }
+
+  a {
+    color: lightblue;
+    text-decoration: underline;
+  }
+}

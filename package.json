@@ -7,5 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Wagner Ghedin",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lottie-player": "^1.0.0",
+    "tailwindcss": "^3.3.3"
+  }
 }
