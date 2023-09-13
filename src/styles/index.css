@@ -1,27 +1,29 @@
 lottie-player {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 /* Default (light) mode */
+
 body {
-    background-color: white;
-    color: black;
+  background-color: #d8dee9;
+  color: #2e3440;
 }
 
 a {
-    color: rgb(202, 78, 29);
-    text-decoration: underline;
+  color: #336699;
+  text-decoration: underline;
 }
 
 /* Dark mode */
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #2056c4;
-        color: white;
-    }
 
-    a {
-        color: lightblue;
-        text-decoration: underline;
-    }
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #2e3440;
+    color: white;
+  }
+
+  a {
+    color: lightblue;
+    text-decoration: underline;
+  }
 }
